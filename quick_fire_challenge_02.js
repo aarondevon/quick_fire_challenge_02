@@ -16,5 +16,7 @@ function multiArray(array){
       console.log(array[i][j]);
     }
   }
-multiArray(masterArray);
+  return array;
 }
+masterArray = multiArray(masterArray);
+console.log(masterArray);
