@@ -8,11 +8,11 @@ var arraySix = [6, 7, 8, 9, 1, 2, 3, 4,];
 var masterArray = [arrayOne, arrayTwo, arrayThree, arrayFour, arrayFive, arraySix];
 
 function multiArray(array){
-  for(var i = 0; i < masterArray.length; i++){
+  for(var i = 0; i < array.length; i++){
     
-    for(var j = 0; j <  masterArray[i].length; j++){
+    for(var j = 0; j <  array[i].length; j++){
 
-      masterArray[i][j] = (masterArray[i][j] + 1) * 2;
+      array[i][j] = (array[i][j] + 1) * 2;
       console.log(array[i][j]);
     }
   }
